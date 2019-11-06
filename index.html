@@ -13,6 +13,7 @@
   {
   var obj = new BigEval();
 			return  obj.exec(val)
+	  console.log(val)
 		
     }
   
@@ -21,14 +22,14 @@
       var numString = document.getElementById('_word').value;
    			n=_ab(numString)
       document.getElementById('container').innerHTML = `total value of ${n[0]} after gst would be ${n[1]}`;
-	    console.log(numString);
+// 	    console.log(numString);
     }
 
 </script>
 
   <input type="text" id="_word" size="100" onkeyup="auto_update();"
   br/>
-  <div id="container">  dominoes pizza gst calc </div>
+  <div id="container">  Auto calculator </div>
 
 </body>
 </html>
