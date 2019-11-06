@@ -14,7 +14,8 @@
   var obj = new BigEval();
 			result=obj.exec(val)
 	  return result;
-	  console.log(val,result)
+
+	  console.log(typeof(val))
 		
     }
   
@@ -22,7 +23,7 @@
     {
       var numString = document.getElementById('_word').value;
    			n=_ab(numString)
-      		document.getElementById('container').innerHTML = `total value of ${n[0]} after gst would be ${n[1]}`;
+      		document.getElementById('container').innerHTML = ` ${n} `;
 // 	    console.log(numString);
     }
 
